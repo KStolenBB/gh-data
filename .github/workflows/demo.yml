@@ -21,6 +21,7 @@ jobs:
           name: dist-files
           path: |
             dist/
+            src/
             package.json
   build:
     needs: test
